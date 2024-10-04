@@ -1,0 +1,218 @@
+{
+  "general": {
+    "text_color": "#fff",
+    "font_family": "'Segoe UI', 'Segoe UI Bold', 'Segoe UI Italic, sans-serif'",
+    "link": {
+      "underline": "true"
+    },
+    "border_radius": "5px"
+  },
+  "media_query": {
+    "use_query": "true",
+    "file_info": {
+      "remove_seperator": "550px"
+    }
+  },
+  "element_styles": {
+    "parent_dir": {
+      "font_size": "1.5em",
+      "slash": {
+        "font_size": "0.5em",
+        "font_weight": "900"
+      }
+    },
+    "files": {
+      "border_radius": "5px"
+    },
+    "file": {
+      "border_radius": "2px"
+    },
+    "file_info": {
+      "border_radius": "5px"
+    },
+    "search": {
+      "border_radius": "5px"
+    }
+  },
+  "colors": {
+    "text": {
+      "general": "#fff"
+    },
+    "accent": {
+      "default": "#ae7ce4",
+      "hover": " #75559f"
+    },
+    "background": {
+      "default": "#191919"
+    },
+    "elements": {
+      "search": {
+        "background": "#2d2d2d"
+      },
+      "files": {
+        "background": "#232323",
+        "shadow": "rgba(0, 0, 0, 0.1)"
+      },
+      "li_file": {
+        "default": "rgba(0, 0, 0, .1)",
+        "hover": "rgba(0, 0, 0, .2)"
+      },
+      "file_info": {
+        "text_color": "rgb(200,200,200)",
+        "background": "#232323",
+        "seperator": "rgba(255,255,255,0.1)"
+      },
+      "file": {
+        "is_folder": {
+          "text_color": "rgb(25,25,25)",
+          "background": "#ae7ce4"
+        }
+      }
+    },
+    "files": {
+      ".7z": { "bgcolor": "#e7a923", "txtcolor": "black" },
+      ".aac": { "bgcolor": "#d9e79e", "txtcolor": "black" },
+      ".accdb": { "bgcolor": "#fc1313", "txtcolor": "black" },
+      ".app": { "bgcolor": "#bdf0ef", "txtcolor": "black" },
+      ".avi": { "bgcolor": "#9ebbe7", "txtcolor": "black" },
+      ".bat": { "bgcolor": "#cdeee9", "txtcolor": "black" },
+      ".bmp": { "bgcolor": "#48c7e6", "txtcolor": "black" },
+      ".class": { "bgcolor": "#b07219", "txtcolor": "white" },
+      ".cpl": { "bgcolor": "#d4c5e3", "txtcolor": "black" },
+      ".cpp": { "bgcolor": "#f34b7d", "txtcolor": "white" },
+      ".csv": { "bgcolor": "#9ee7a7", "txtcolor": "black" },
+      ".css": { "bgcolor": "#264de4", "txtcolor": "white" },
+      ".db": { "bgcolor": "#f0bb2c", "txtcolor": "black" },
+      ".dll": { "bgcolor": "#d4c5e3", "txtcolor": "black" },
+      ".doc": { "bgcolor": "#9ee7c9", "txtcolor": "black" },
+      ".docx": { "bgcolor": "#9ee7c9", "txtcolor": "black" },
+      ".dwg": { "bgcolor": "#f02c38", "txtcolor": "black" },
+      ".dxf": { "bgcolor": "#f02c38", "txtcolor": "black" },
+      ".erb": { "bgcolor": "#701516", "txtcolor": "white" },
+      ".exe": { "bgcolor": "#c5dde3", "txtcolor": "black" },
+      ".ffmpeg": { "bgcolor": "#438496", "txtcolor": "black" },
+      ".flac": { "bgcolor": "#d9e79e", "txtcolor": "black" },
+      ".gif": { "bgcolor": "#48c7e6", "txtcolor": "black" },
+      ".gz": { "bgcolor": "#d9eaea", "txtcolor": "black" },
+      ".h": { "bgcolor": "#f34b7d", "txtcolor": "white" },
+      ".html": { "bgcolor": "#e34f26", "txtcolor": "black" },
+      ".ico": { "bgcolor": "#65acd7", "txtcolor": "black" },
+      ".ini": { "bgcolor": "#e3e0c5", "txtcolor": "black" },
+      ".ipynb": { "bgcolor": "#3776ab", "txtcolor": "white" },
+      ".java": { "bgcolor": "#b07219", "txtcolor": "white" },
+      ".jpeg": { "bgcolor": "#48c7e6", "txtcolor": "black" },
+      ".jpg": { "bgcolor": "#48c7e6", "txtcolor": "black" },
+      ".js": { "bgcolor": "#f7df1e", "txtcolor": "black" },
+      ".json": { "bgcolor": "#f7df1e", "txtcolor": "black" },
+      ".md": { "bgcolor": "#005b96", "txtcolor": "white" },
+      ".mdb": { "bgcolor": "#fc1313", "txtcolor": "black" },
+      ".mov": { "bgcolor": "#438496", "txtcolor": "black" },
+      ".mp3": { "bgcolor": "#d765d1", "txtcolor": "black" },
+      ".mp4": { "bgcolor": "#438496", "txtcolor": "black" },
+      ".msi": { "bgcolor": "#c5dde3", "txtcolor": "black" },
+      ".obj": { "bgcolor": "#c7f5f5", "txtcolor": "black" },
+      ".odt": { "bgcolor": "#9ee7c9", "txtcolor": "black" },
+      ".ods": { "bgcolor": "#9ee7a7", "txtcolor": "black" },
+      ".otf": { "bgcolor": "#9b51dc", "txtcolor": "black" },
+      ".pdf": { "bgcolor": "#d76c5b", "txtcolor": "black" },
+      ".php": { "bgcolor": "#9b51dc", "txtcolor": "black" },
+      ".png": { "bgcolor": "#48c7e6", "txtcolor": "black" },
+      ".ps1": { "bgcolor": "#cdeee9", "txtcolor": "black" },
+      ".py": { "bgcolor": "#3776ab", "txtcolor": "white" },
+      ".pyw": { "bgcolor": "#3776ab", "txtcolor": "white" },
+      ".rar": { "bgcolor": "#e7a923", "txtcolor": "black" },
+      ".rb": { "bgcolor": "#701516", "txtcolor": "white" },
+      ".rtf": { "bgcolor": "#9ee7c9", "txtcolor": "black" },
+      ".sass": { "bgcolor": "#cc6699", "txtcolor": "black" },
+      ".scss": { "bgcolor": "#cc6699", "txtcolor": "black" },
+      ".sh": { "bgcolor": "#cdeee9", "txtcolor": "black" },
+      ".sql": { "bgcolor": "#f29111", "txtcolor": "black" },
+      ".stl": { "bgcolor": "#c7f5f5", "txtcolor": "black" },
+      ".svg": { "bgcolor": "#e6e148", "txtcolor": "black" },
+      ".sys": { "bgcolor": "#d4c5e3", "txtcolor": "black" },
+      ".tar": { "bgcolor": "#d9eaea", "txtcolor": "black" },
+      ".tar.gz": { "bgcolor": "#e7a923", "txtcolor": "black" },
+      ".ttf": { "bgcolor": "#9b51dc", "txtcolor": "black" },
+      ".txt": { "bgcolor": "#9ee7c9", "txtcolor": "black" },
+      ".wav": { "bgcolor": "#d765d1", "txtcolor": "black" },
+      ".webp": { "bgcolor": "#36a62c", "txtcolor": "black" },
+      ".wmv": { "bgcolor": "#9ebbe7", "txtcolor": "black" },
+      ".woff": { "bgcolor": "#9b51dc", "txtcolor": "black" },
+      ".xls": { "bgcolor": "#9ee7a7", "txtcolor": "black" },
+      ".xlsx": { "bgcolor": "#9ee7a7", "txtcolor": "black" },
+      ".xml": { "bgcolor": "#1cbd2a", "txtcolor": "black" },
+      ".zip": { "bgcolor": "#e7a923", "txtcolor": "black" },
+      ".log": { "bgcolor": "#c9dade", "txtcolor": "black" },
+      ".tex": { "bgcolor": "#c9dade", "txtcolor": "black" },
+      ".wks": { "bgcolor": "#c9dade", "txtcolor": "black" },
+      ".yaml": { "bgcolor": "#d194c5", "txtcolor": "black" },
+      ".yml": { "bgcolor": "#d194c5", "txtcolor": "black" },
+      ".tsv": { "bgcolor": "#d194c5", "txtcolor": "black" },
+      ".dbf": { "bgcolor": "#d194c5", "txtcolor": "black" },
+      ".sav": { "bgcolor": "#d194c5", "txtcolor": "black" },
+      ".tiff": { "bgcolor": "#9497d1", "txtcolor": "black" },
+      ".tif": { "bgcolor": "#9497d1", "txtcolor": "black" },
+      ".heic": { "bgcolor": "#9497d1", "txtcolor": "black" },
+      ".ogg": { "bgcolor": "#c694d1", "txtcolor": "black" },
+      ".m4a": { "bgcolor": "#c694d1", "txtcolor": "black" },
+      ".wma": { "bgcolor": "#c694d1", "txtcolor": "black" },
+      ".aiff": { "bgcolor": "#c694d1", "txtcolor": "black" },
+      ".mkv": { "bgcolor": "#4868d4", "txtcolor": "white" },
+      ".flv": { "bgcolor": "#4868d4", "txtcolor": "white" },
+      ".m4v": { "bgcolor": "#4868d4", "txtcolor": "white" },
+      ".webm": { "bgcolor": "#4868d4", "txtcolor": "white" },
+      ".bz2": { "bgcolor": "#9948d4", "txtcolor": "white" },
+      ".xz": { "bgcolor": "#9948d4", "txtcolor": "white" },
+      ".iso": { "bgcolor": "#9948d4", "txtcolor": "white" },
+      ".apk": { "bgcolor": "#48d466", "txtcolor": "black" },
+      ".bin": { "bgcolor": "#48d466", "txtcolor": "black" },
+      ".run": { "bgcolor": "#48d466", "txtcolor": "black" },
+      ".asp": { "bgcolor": "#48d466", "txtcolor": "black" },
+      ".aspx": { "bgcolor": "#48d466", "txtcolor": "black" },
+      ".jsp": { "bgcolor": "#d49248", "txtcolor": "black" },
+      ".htm": { "bgcolor": "#e34f26", "txtcolor": "black" },
+      ".vue": { "bgcolor": "#48d472", "txtcolor": "black" },
+      ".conf": { "bgcolor": "#c2e8e8", "txtcolor": "black" },
+      ".bak": { "bgcolor": "#c2e8e8", "txtcolor": "black" },
+      ".dmg": { "bgcolor": "#c2e8e8", "txtcolor": "black" },
+      ".efi": { "bgcolor": "#c2e8e8", "txtcolor": "black" },
+      ".eot": { "bgcolor": "#9b51dc", "txtcolor": "black" },
+      ".sqlite": { "bgcolor": "#6bb9ff", "txtcolor": "black" },
+      ".sqlite3": { "bgcolor": "#6bb9ff", "txtcolor": "black" },
+      ".db3": { "bgcolor": "#6bb9ff", "txtcolor": "black" },
+      ".skp": { "bgcolor": "#f02c38", "txtcolor": "black" },
+      ".3ds": { "bgcolor": "#f02c38", "txtcolor": "black" },
+      ".iges": { "bgcolor": "#f02c38", "txtcolor": "black" },
+      ".igs": { "bgcolor": "#f02c38", "txtcolor": "black" },
+      ".fbx": { "bgcolor": "#1d71bc", "txtcolor": "white" },
+      ".dae": { "bgcolor": "#1d71bc", "txtcolor": "white" },
+      ".blend": { "bgcolor": "#ffb843", "txtcolor": "black" },
+      ".ppt": { "bgcolor": "#f2912a", "txtcolor": "black" },
+      ".pptx": { "bgcolor": "#f2912a", "txtcolor": "black" },
+      ".odp": { "bgcolor": "#f2912a", "txtcolor": "black" },
+      ".key": { "bgcolor": "#f2912a", "txtcolor": "black" },
+      ".epub": { "bgcolor": "#6c74da", "txtcolor": "black" },
+      ".mobi": { "bgcolor": "#6c74da", "txtcolor": "black" },
+      ".azw": { "bgcolor": "#6c74da", "txtcolor": "black" },
+      ".pak": { "bgcolor": "#a2a5c9", "txtcolor": "black" },
+      ".torrent": { "bgcolor": "#e1d2f3", "txtcolor": "black" },
+      ".ics": { "bgcolor": "#e1d2f3", "txtcolor": "black" },
+      ".vcf": { "bgcolor": "#e1d2f3", "txtcolor": "black" },
+      ".gpx": { "bgcolor": "#e1d2f3", "txtcolor": "black" },
+      ".tmp": { "bgcolor": "#e1d2f3", "txtcolor": "black" },
+      ".old": { "bgcolor": "#e1d2f3", "txtcolor": "black" },
+      ".c": { "bgcolor": "#70788b", "txtcolor": "black" },
+      ".cfg": { "bgcolor": "#bdc3d0", "txtcolor": "black" },
+      ".cab": { "bgcolor": "#bdc3d0", "txtcolor": "black" },
+      ".cda": { "bgcolor": "#bdc3d0", "txtcolor": "black" },
+      ".cgi": { "bgcolor": "#bdc3d0", "txtcolor": "black" },
+      ".cmd": { "bgcolor": "#bdc3d0", "txtcolor": "black" },
+      ".cs": { "bgcolor": "#79e139", "txtcolor": "black" },
+      ".com": { "bgcolor": "#e13964", "txtcolor": "black" },
+      ".shtml": { "bgcolor": "#e34f26", "txtcolor": "black" },
+      ".xhtml": { "bgcolor": "#e34f26", "txtcolor": "black" },
+      ".xlr": { "bgcolor": "#1f9d3b", "txtcolor": "black" },
+      ".xpi": { "bgcolor": "#1f9d3b", "txtcolor": "black" }
+    }
+  }
+}

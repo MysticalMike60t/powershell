@@ -1,0 +1,20 @@
+{
+  "name": "powershell",
+  "version": "1.x.x",
+  "description": "Powershell scripts to use with \"iwr\" and \"iex\" commands with.",
+  "main": "index.html",
+  "scripts": {
+    "generate-indexes": "node generate-indexes.js",
+    "build": "npm run generate-indexes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MysticalMike60t/powershell.git"
+  },
+  "author": "Caden Finkelstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MysticalMike60t/powershell/issues"
+  },
+  "homepage": "https://github.com/MysticalMike60t/powershell#readme"
+}
