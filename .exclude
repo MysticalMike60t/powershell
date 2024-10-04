@@ -2,3 +2,6 @@ index.html
 .gitignore
 .gitkeep
 all-files.html
+.netlify
+templates
+testing
