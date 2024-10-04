@@ -1,19 +1,15 @@
 $originalLocation = Get-Location
 
-# Move to Downloads folder
 Write-Host "Moving to Downloads folder for user: $([System.Environment]::UserName)"
 Set-Location "$env:USERPROFILE\Downloads"
 
-# Download UWT4.zip
 Write-Host "Downloading UWT4.zip..."
 Invoke-WebRequest "https://thewindowsclub.com/downloads/UWT4.zip" -OutFile "UWT4.zip"
 
-# Check if the zip file was downloaded
 if (Test-Path "UWT4.zip") {
     Write-Host "Extracting UWT4..."
     Expand-Archive -Path "UWT4.zip" -DestinationPath "UWT4" -Force
 
-    # Check if extraction was successful
     if ($?) {
         Write-Host "UWT4 Extracted successfully."
     } else {
@@ -25,7 +21,6 @@ if (Test-Path "UWT4.zip") {
     exit 1
 }
 
-# Check if the extracted folder exists and change to it
 if (Test-Path "UWT4") {
     Write-Host "Starting UWT4..."
     Set-Location "./UWT4/Ultimate Windows Tweaker 4.8"
