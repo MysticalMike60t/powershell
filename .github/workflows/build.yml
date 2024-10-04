@@ -44,7 +44,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: build-artifacts
-          path: ./
+          path: ./scripts
   deploy:
     environment:
       name: github-pages
@@ -60,7 +60,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './'
+          path: './scripts'
 
       - name: Deploy to GitHub Pages
         id: deployment

@@ -1,6 +1,6 @@
 {
   "root": {
-    "directory": "./"
+    "directory": "./scripts"
   },
   "encoding": "utf-8",
   "files": {
