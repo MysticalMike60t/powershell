@@ -12,7 +12,7 @@ Powershell scripts to use with "iwr" and "iex" commands with.
 Invoke-WebRequest "https://powershell.cadenf.com/SCRIPT_NAME.ps1" | Invoke-Expression
 ```
 
-*OR*
+__OR__
 
 Shorthand
 ```powershell
